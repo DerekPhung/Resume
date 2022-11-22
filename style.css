@@ -3,7 +3,8 @@
   width: 1200px;
   height: 2000px;
   border: 2px solid black;
-  margin: auto;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #columnLeft{
@@ -12,7 +13,6 @@
   height: 100%;
   float: left;
   border: 2px solid green; 
-  position: fixed;
 }
 
 #columnRight{
