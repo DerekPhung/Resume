@@ -1,4 +1,5 @@
 
+//skills education 'work experience' projects 'major courses' 'award and achievement' 'Extracurricular Activities'
 let navList = ["Education","Skills and Technique", "Work Experience", "Projects", "Major Courses", "Awards and Achievements", "Extracurricular Activities", "Top"];
 let navID = ["education","skills","experience","projects","courses", "awards","activities","Top"];
 document.getElementById("bigBox").innerHTML += `
