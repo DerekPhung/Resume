@@ -20,12 +20,12 @@
   height: 100%;
   float: right;
   border: 2px solid green;
+  padding: 10px;
 }
 
 #columnMid{
   width: 50%;
   height: 100%;
-  border: 2px solid purple;
   margin: auto;
 }
 
@@ -55,4 +55,15 @@
 
 #columnRight p1{
   font-size: 18px;
+}
+
+img{
+  width: 90%;
+  padding: 10px;
+  border-radius: 30px;
+}
+
+#profile{
+  width: 100%;
+  text-align: center;
 }
