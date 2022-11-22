@@ -24,7 +24,7 @@ function main(){
   //all the descriptions
   let descriptions = ["Derek Phung" //Name
                     , `<a href="https://github.com/DerekPhung">https://github.com/DerekPhung</a>` //GitHub
-                    ,`<a href="https://www.linkedin.com/in/derekphung16/">https://www.linkedin.com\n/in/derekphung16/</a>` //LinkedIn
+                    ,`<a href="https://www.linkedin.com/in/derekphung16/">LinkedIn</a>` //LinkedIn
                     , `derekphung16@gmail.com</br><a href="tel:678-492-1294">Mobile: 678-492-1294</a>`]; //Contact
 
   //print out information in body text format
