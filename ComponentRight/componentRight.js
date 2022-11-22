@@ -1,8 +1,9 @@
 
 
-function bodyText(){
+function bodyText(topic, description){
     document.getElementById("columnRight").innerHTML += 
-    `testing <br/> <br/>`;
+    `${topic} <br/>
+    ${description} <br/> <br/> <br/>`;
 
 }
 
@@ -13,10 +14,10 @@ function main(){
     </div>
   `;
 
-  bodyText();
+  bodyText("test", "testing" );
 
   for(let i = 0; i < 5; i++){
-    bodyText();
+    bodyText("test" + i, "testing");
   }
 
 
