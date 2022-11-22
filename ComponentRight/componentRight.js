@@ -21,7 +21,9 @@ function main(){
 
 
   //array of information
+  //header
   let topics = ["Name" ,"LinkedIn", "GitHub" ,"Contact"]
+  //all the descriptions
   let descriptions = ["Derek Phung", "https://github.com/DerekPhung"
                     ,`https://www.linkedin.com\n/in/derekphung16/`, "derekphung16@gmail.com"];
 
