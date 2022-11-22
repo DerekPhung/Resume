@@ -1,6 +1,11 @@
 const newLocal = document.getElementById("bigBox").innerHTML += `
 <div id="columnMid">
 
+    <div id="profile">
+        <img src="https://media-exp1.licdn.com/dms/image/C4D03AQF14WFxYpHxfw/profile-displayphoto-shrink_800_800/0/1608858125407?e=2147483647&v=beta&t=iTlQJEWgEGop7EUnEE39OTXK6NO3aYgGn7LojWWs8lk"/>
+
+    </div>
+
     <h1 class="title">Skills</h1>
     <ul>
         <li>Microsoft Suite</li>
