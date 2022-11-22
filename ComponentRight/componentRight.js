@@ -5,7 +5,7 @@ function bodyText(){
 }
 
 function main(){
-    document.getElementById("bigBox").innerHTML = `
+    document.getElementById("bigBox").innerHTML += `
   <div id="columnRight">
     
   </div>
