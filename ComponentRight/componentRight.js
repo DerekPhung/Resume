@@ -21,8 +21,9 @@ function main(){
 
 
   //array of information
-  let topics = ["test1" ,"test2" ,"test3" ,"test4"]
-  let descriptions = ["test1", "test2", "test3", "test4"];
+  let topics = ["Name" ,"Address" ,"Contact" ,"Mobile"]
+  let descriptions = ["Derek Phung", "477 Autumn Park Trace, \nLawrenceville GA, 30044"
+                        , "dphung@ggc.edu", "678-492-1294"];
 
   //print out information in body text format
   for(let i = 0; i < topics.length; i++){
