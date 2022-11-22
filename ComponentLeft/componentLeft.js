@@ -1,7 +1,7 @@
 
 let navList = ["Education","Skills and Technique", "Work Experience", "Projects", "Major Courses", "Awards and Achievements", "Extracurricular Activities", "Top"];
 let navID = ["education","skills","experience","projects","courses", "awards","activities","Top"];
-document.getElementById("bigBox").innerHTML = `
+document.getElementById("bigBox").innerHTML += `
   <div id="columnLeft">
 
   </div>
