@@ -1,4 +1,4 @@
-document.getElementById("bigBox").innerHTML = `
+document.getElementById("bigBox").innerHTML += `
 <div id="columnMid">
 
 <h1 class="title">Education</h1>
@@ -9,8 +9,10 @@ document.getElementById("bigBox").innerHTML = `
 
     <h1 class="title">Skills and Techniques</h1>
     <ul>
-        <li>Graduated Berkmar High School in 2010</li>
-        <li>Enrolled at Gerogia Gwinnett College in 2018</li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
     </ul>
 
     <h1 class="title">Work Experience</h1>
