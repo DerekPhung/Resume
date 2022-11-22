@@ -7,10 +7,12 @@
 }
 
 #columnLeft{
+  text-align: center;
   width: 25%;
   height: 100%;
   float: left;
   border: 2px solid green; 
+  position: fixed;
 }
 
 #columnRight{
@@ -25,4 +27,20 @@
   height: 100%;
   border: 2px solid purple;
   margin: auto;
+}
+
+.title{
+  text-align: center;
+}
+
+.navBox{
+  padding-top: 15px;
+  border: 2px solid black;
+  width: 100%;
+  height: 50px;
+  font-size: 20px;
+}
+
+.navBox:hover{
+  background-color: gray;
 }

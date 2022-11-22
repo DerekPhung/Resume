@@ -22,9 +22,6 @@ function main(){
 
 
 
-
-
-
 }
 
 console.log("Component Right is running")
