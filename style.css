@@ -44,3 +44,15 @@
 .navBox:hover{
   background-color: gray;
 }
+
+/*ColumnRight Stuff please ask Joey before touching */
+#columnRight .headerRight{
+  font-size: 30px;
+  border-top: 3px solid black;
+  border-bottom: 3px dotted gray;
+
+}
+
+#columnRight p1{
+  font-size: 18px;
+}

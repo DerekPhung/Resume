@@ -1,29 +1,40 @@
 
 
-function bodyText(){
+function bodyText(topic, description){
+    console.log("Running bodyText")
+    //print body text method
     document.getElementById("columnRight").innerHTML += 
-    `testing <br/> <br/>`;
+    `<div class="headerRight"> ${topic}</div>
+    <p1> ${description} <br/>
+    <br/> <br/> </p1>
+    `;
 
 }
-
+//main
 function main(){
+    console.log("Running Main of componentRight.js")
     document.getElementById("bigBox").innerHTML += `
     <div id="columnRight">
       
     </div>
   `;
 
-  bodyText();
 
-  for(let i = 0; i < 5; i++){
-    bodyText();
+  //array of information
+  //header
+  let topics = ["Name" ,"LinkedIn", "GitHub" ,"Contact"]
+  //all the descriptions
+  let descriptions = ["Derek Phung", "https://github.com/DerekPhung"
+                    ,`https://www.linkedin.com\n/in/derekphung16/`, "derekphung16@gmail.com"];
+
+  //print out information in body text format
+  for(let i = 0; i < topics.length; i++){
+    bodyText(topics[i], descriptions[i]);
   }
 
 
-
-
 }
-
+//Running
 console.log("Component Right is running")
-
 main();
+console.log("Component Right has ran correctly")
