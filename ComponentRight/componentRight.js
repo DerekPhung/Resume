@@ -21,9 +21,9 @@ function main(){
 
 
   //array of information
-  let topics = ["Name" ,"Address" ,"Contact" ,"Mobile"]
-  let descriptions = ["Derek Phung", "477 Autumn Park Trace, \nLawrenceville GA, 30044"
-                        , "dphung@ggc.edu", "678-492-1294"];
+  let topics = ["Name" ,"LinkedIn", "GitHub" ,"Contact"]
+  let descriptions = ["Derek Phung", "https://github.com/DerekPhung"
+                    ,`https://www.linkedin.com\n/in/derekphung16/`, "derekphung16@gmail.com"];
 
   //print out information in body text format
   for(let i = 0; i < topics.length; i++){
