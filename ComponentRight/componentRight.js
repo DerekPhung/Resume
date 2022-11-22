@@ -1,5 +1,5 @@
 
-
+//little components for each topic seperated by boxes.
 function bodyText(topic, description){
     console.log("Running bodyText")
     //print body text method
@@ -18,8 +18,6 @@ function main(){
       
     </div>
   `;
-
-
   //array of information
   //header
   let topics = ["Name" ,"GitHub", "LinkedIn" ,"Contact"]
@@ -33,7 +31,6 @@ function main(){
   for(let i = 0; i < topics.length; i++){
     bodyText(topics[i], descriptions[i]);
   }
-
 
 }
 //Running
