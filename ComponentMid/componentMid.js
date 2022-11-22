@@ -24,7 +24,8 @@ const newLocal = document.getElementById("bigBox").innerHTML += `
 
     <h1 class="title">Education</h1>
 
-    <h2>Bachelors of Science</h2>
+    <div id="school1">Bachelors of Science</div>
+    <div id="school2">Expected Graduation: 2025</div>
 
     <h1 class="title">Work Experience</h1>
     <ul>

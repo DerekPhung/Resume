@@ -1,7 +1,7 @@
 
 #bigBox{
   width: 1200px;
-  height: 2000px;
+  height: 2500px;
   border: 2px solid black;
   margin-left: auto;
   margin-right: auto;
@@ -31,6 +31,18 @@
 
 .title{
   text-align: center;
+}
+
+#school1, #school2{
+  text-align: center;
+}
+
+#school1{
+  font-size: 30px;
+}
+
+#school2{
+  font-size: 20px;
 }
 
 .navBox{
