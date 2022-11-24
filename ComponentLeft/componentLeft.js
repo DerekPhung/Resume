@@ -29,3 +29,7 @@ for(let i = 0; i < navList.length; i++){
     </div>
   `;
 }
+
+function testerFunction(){
+  console.log("you should only be able to read this if you call it");
+}
